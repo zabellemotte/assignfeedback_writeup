@@ -17,10 +17,13 @@
 /**
  * This file defines the admin settings for this plugin
  *
- * @package   assignfeedback_comments
+ * @package   assignfeedback_writeup
+ * @forked from assignfeedback_comment
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
+ * @modified by Zabelle Motte (isabelle.motte@uclouvain.be)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 
 $settings->add(new admin_setting_configcheckbox('assignfeedback_writeup/default',
                    new lang_string('default', 'assignfeedback_writeup'),

@@ -15,17 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * This file contains the version information for the writeup feedback plugin
+ * This file defines the admin settings for this plugin
  *
- * @package   assignfeedback_writeup
- * @forked from assignfeedback_comment
+ * @package   assignfeedback_comments
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
- * @modified by Zabelle Motte (isabelle.motte@uclouvain.be)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
+$settings->add(new admin_setting_configcheckbox('assignfeedback_writeup/default',
+                   new lang_string('default', 'assignfeedback_writeup'),
+                   new lang_string('default_help', 'assignfeedback_writeup'), 1));
 
-$plugin->version   = 2019032902;
-$plugin->requires  = 2018050800;
-$plugin->component = 'assignfeedback_writeup';
+/*$setting = new admin_setting_configcheckbox('assignfeedback_writeup/inline',
+                   new lang_string('commentinlinedefault', 'assignfeedback_writeup'),
+                   new lang_string('commentinlinedefault_help', 'assignfeedback_writeup'), 0);
+
+$setting->set_advanced_flag_options(admin_setting_flag::ENABLED, false);
+$setting->set_locked_flag_options(admin_setting_flag::ENABLED, false);
+
+$settings->add($setting);*/

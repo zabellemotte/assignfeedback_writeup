@@ -17,10 +17,8 @@
 /**
  * This file contains the version information for the writeup feedback plugin
  *
- * @package   assignfeedback_writeup
- * @forked from assignfeedback_comment
+ * @package   assignfeedback_comments
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
- * @modified by Zabelle Motte (isabelle.motte@uclouvain.be)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
