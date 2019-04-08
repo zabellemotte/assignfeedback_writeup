@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_writeup', language 'f'
+ * Strings for component 'assignfeedback_writeup', language 'fr'
  *
  * @package   assignfeedback_writeup
  * @forked from assignfeedback_comment

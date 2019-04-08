@@ -15,12 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_writeup', language 'en'
+ * Strings for component 'assignfeedback_writeup', language 'f'
  *
  * @package   assignfeedback_writeup
+ * @forked from assignfeedback_comment
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
+ * @modified by Zabelle Motte (isabelle.motte@uclouvain.be)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 
 $string['default'] = 'Activé par défaut';
 $string['default_help'] = 'Si coché, cette méthode de feedback sera activée par défaut dans tout nouveau devoir.';
