@@ -248,6 +248,7 @@ class assign_feedback_writeup extends assign_feedback_plugin {
         $mform->setDefault('assignfeedback_writeup_commentinline', $default);
         // Disable comment online if comment feedback plugin is disabled.
         $mform->disabledIf('assignfeedback_writeup_commentinline', 'assignfeedback_writeup_enabled', 'notchecked');*/
+        $mform->disabledIf('assignfeedback_writeup_enabled', 'assignsubmission_onlinetext_enabled', 'notchecked');
         return $mform;
    }
 

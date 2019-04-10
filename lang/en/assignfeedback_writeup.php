@@ -28,7 +28,7 @@
 $string['default'] = 'Enabled by default';
 $string['default_help'] = 'If set, this feedback method will be enabled by default for all new assignments.';
 $string['enabled'] = 'Feedback WriteUp';
-$string['enabled_help'] = 'If enabled, the marker can leave feedback WriteUp for each submission. ';
+$string['enabled_help'] = 'Feedback WriteUp enables language teachers to tag student productions with predefined marks. Enabled only for online text submission type.';
 $string['pluginname'] = 'Feedback WriteUp';
 $string['privacy:commentpath'] = 'Feedback WriteUp';
 $string['privacy:metadata:assignmentid'] = 'Assignment ID';

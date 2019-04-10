@@ -28,7 +28,7 @@
 $string['default'] = 'Activé par défaut';
 $string['default_help'] = 'Si coché, cette méthode de feedback sera activée par défaut dans tout nouveau devoir.';
 $string['enabled'] = 'Feedback WriteUp';
-$string['enabled_help'] = 'Si coché, l\'évaluateur pourra remettre un feedback WriteUp pour le devoir. ';
+$string['enabled_help'] = 'Le feedback WriteUp permet aux enseignants de langues de tagguer les productions étudiantes avec des balises définies. Suppose de configurer le devoir avec un type de remise "Texte en ligne".';
 $string['pluginname'] = 'Feedback WriteUp';
 $string['privacy:commentpath'] = 'Feedback WriteUp';
 $string['privacy:metadata:assignmentid'] = 'ID du devoir';
