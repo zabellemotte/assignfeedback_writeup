@@ -20,7 +20,7 @@
  * Provides the necessary information needed to restore
  * one assign_submission subplugin.
  *
- * @package   assignfeedback_comments
+ * @package   assignfeedback_writeup
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -33,11 +33,11 @@ defined('MOODLE_INTERNAL') || die();
  * Provides the necessary information needed to restore
  * one assignfeedback subplugin.
  *
- * @package   assignfeedback_comments
+ * @package   assignfeedback_writeup
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class restore_assignfeedback_comments_subplugin extends restore_subplugin {
+class restore_assignfeedback_writeup_subplugin extends restore_subplugin {
 
     /**
      * Returns the paths to be handled by the subplugin at workshop level
@@ -49,7 +49,7 @@ class restore_assignfeedback_comments_subplugin extends restore_subplugin {
 
         $elename = $this->get_namefor('grade');
         // We used get_recommended_name() so this works.
-        $elepath = $this->get_pathfor('/feedback_comments');
+        $elepath = $this->get_pathfor('/feedback_writeup');
 
         $paths[] = new restore_path_element($elename, $elepath);
 
@@ -57,10 +57,10 @@ class restore_assignfeedback_comments_subplugin extends restore_subplugin {
     }
 
     /**
-     * Processes one feedback_comments element.
+     * Processes one feedback_writeup element.
      * @param mixed $data
      */
-    public function process_assignfeedback_comments_grade($data) {
+    public function process_assignfeedback_writeup_grade($data) {
         global $DB;
 
         $data = (object)$data;
@@ -70,6 +70,6 @@ class restore_assignfeedback_comments_subplugin extends restore_subplugin {
         // when a grade node is processed.
         $data->grade = $this->get_mappingid('grade', $data->grade);
 
-        $DB->insert_record('assignfeedback_comments', $data);
+        $DB->insert_record('assignfeedback_writeup', $data);
     }
 }
