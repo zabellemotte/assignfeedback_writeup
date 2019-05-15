@@ -26,6 +26,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2019032902;
+$plugin->version   = 2019051402;
 $plugin->requires  = 2018050800;
 $plugin->component = 'assignfeedback_writeup';
